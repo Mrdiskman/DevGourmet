@@ -5,7 +5,7 @@ export const HeaderMobileStyled = styled.header`
   @media (max-width: 425px) {
     display: flex;
     align-items: center;
-    width: 95%;
+    width: 100%;
     height: 100px;
     background-color: #f8673a;
     box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.3);

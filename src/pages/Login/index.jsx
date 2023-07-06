@@ -14,9 +14,7 @@ export default function Login() {
         />
         <label htmlFor="">Senha</label>
         <input type="password" className="passwordInput" placeholder="....." />
-        <button className="send" onClick={() => navigate("/")}>
-          <BiLogIn className="loginIcon" />
-        </button>
+        <button className="send" onClick={() => navigate("/")}><BiLogIn className="loginIcon" /></button>
       </form>
     </LoginStyled>
   );

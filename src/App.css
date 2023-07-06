@@ -29,6 +29,20 @@ body {
 	height: 100vh;
 	overflow-x: hidden;
 }
+body::-webkit-scrollbar {
+	width: 5px;
+  }
+  
+  body::-webkit-scrollbar-track {
+	background: #f8673a     
+  }
+  
+  body::-webkit-scrollbar-thumb {
+	background-color: #000000;   
+	border-radius: 25px;      
+	border: none;  
+  }
+  
 ol, ul {
 	list-style: none;
 }
